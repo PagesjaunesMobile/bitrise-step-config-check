@@ -57,7 +57,7 @@ toolkit:
 
 
 inputs:
-  - check_project_path: $BITRISE_SOURCE_DIR/Project.xcodeproj
+  - check_project_path: $BITRISE_SOURCE_DIR/PagesJaunes/PagesJaunes.xcodeproj
     opts:
       title: "Project file path"
       summary: "Project file path"
