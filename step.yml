@@ -57,7 +57,7 @@ toolkit:
 
 
 inputs:
-  - check_project_path:
+  - check_project_path: $BITRISE_SOURCE_DIR/Project.xcodeproj
     opts:
       title: "Project file path"
       summary: "Project file path"
@@ -66,7 +66,7 @@ inputs:
 
         Can be Markdown formatted text.
       is_required: true
-  - check_schemes:
+  - check_schemes: PagesJaunes|PagesJaunesNotificationService|PagesJaunesiMessageExtension|PagesJaunesDirectory
     opts:
       title: "Targets names"
       summary: "Project file path"
@@ -75,7 +75,7 @@ inputs:
 
         Can be Markdown formatted text.
       is_required: true
-  - check_configs:
+  - check_configs: $BITRISE_EXPORT_METHOD
     opts:
       title: "Build configuration name"
       summary: "Project file path"
@@ -84,7 +84,7 @@ inputs:
 
         Can be Markdown formatted text.
       is_required: true
-  - check_rules_path:
+  - check_rules_path: $BITRISE_SOURCE_DIR/PagesJaunes/ConfigCheck.sh
     opts:
       title: "Rules file path"
       summary: "Project file path"

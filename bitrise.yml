@@ -38,10 +38,10 @@ workflows:
           file if you would not specify another value.
         run_if: true
         inputs:
-        - check_project_path: PagesJaunes/PagesJaunes.xcodeproj
-        - check_schemes: PagesJaunes|PagesJaunesNotificationService|PagesJaunesiMessageExtension|PagesJaunesDirectory
-        - check_configs: "$BITRISE_EXPORT_METHOD"
-        - check_rules_path: PagesJaunes/ConfigCheck.sh
+        - check_project_path: 
+        - check_schemes: 
+        - check_configs: 
+        - check_rules_path: 
     - script:
         inputs:
         - content: |
